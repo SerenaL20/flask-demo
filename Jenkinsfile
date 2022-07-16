@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/2206-devops-batch/flask-demo.git'
+                git 'https://github.com/SerenaL20/flask-demo.git'
 
                 // Run venv
                 sh "python3 -m venv .venv"
